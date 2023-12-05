@@ -2,8 +2,6 @@
 
 import { ref} from 'vue'
 
- 
-
 let id = 0
 
 const title = "Todo list"
@@ -21,10 +19,6 @@ const todos = ref([
   { id: id++, text: 'TEST3', done: false }
 
 ])
-
- 
-
- 
 
 function addTodo() {
 
